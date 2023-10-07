@@ -1,0 +1,39 @@
+
+
+
+
+body{
+    background-color: wheat;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+background-color: black;
+color: white;
+border-radius: 15px;
+
+}
+
+
+li{
+    display: inline-block;
+margin: 15px;
+
+
+}
+header{
+    background-color: white;
+    padding: 13px;
+    border-radius: 16px;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    margin: 15PX;
+}
