@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    background-color: white;
+   
+
+
+}
+
+
+.header{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+     width: 100%;
+     height: 100%;
+     background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100% ), url(' https://media.viajando.travel/p/4e1343c8cbd204e9d00dacf4a6a4ccbf/adjuntos/236/imagenes/000/523/0000523468/1200x675/smart/uadejpg.jpg');
+     background-size: cover;
+     background-position: top center;
+     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 96%, 0 80%);
+    z-index: -1
+}
+
+
+.header h1{
+    text-align: center;
+    margin-top: 550px;
+    color: white;
+font-size: 4em;
+letter-spacing: 80px;
+
+}
+
+.integrantes{
+ margin-top: 950px;
+ color: red;
+ text-align: center;
+ font-size: 4em;
+ letter-spacing: 20px;
+
+}
+.container{
+    display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+flex-direction: column;
+padding: 1px;
+}
+ 
+
+.card {
+    width: 300px;
+    height: auto; 
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 200px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    text-align: center;
+      padding: 50px;
+      position: relative;
+
+      
+}
+
+
+.card:hover{
+    
+    box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+    transform: translateY(-15px);
+
+
+}
+
+.card .content {
+    display: flex;
+    flex-direction: row; 
+
+
+}
+
+
+.card .head {
+    height: 150px; 
+    width: 150px; 
+    position: relative;
+}
+.card .head {
+    height: 150px; 
+    width: 150px; 
+    position: relative;
+}
+
+
+
+.card .head .img {
+    width: 100px; 
+    height: 100px; 
+    position: absolute;
+    background: #fff;
+    padding: 5px; 
+    border-radius: 40%;
+    bottom: 0;
+    right: 80px;
+    transform: translate(50%, 50%);
+} 
+
+
+.special-card {
+    display: flex;
+    flex-direction: row-reverse;
+     
+}
+
+.special-card .img-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.special-card .img-container img {
+    max-width: 200%;
+    height: auto;
+    border-radius: 50%;
+text-align: center;
+}
+
+.special-card .text-container {
+    flex: 4;
+    padding: 20px;
+    
+}
+
+.special-card .text-container h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.special-card .text-container p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.special-card .text-container a {
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    
+    display: inline-block;
+}
+.special-card .text-container a:hover { 
+    background-color: orange;
+}
+
+
+
+.card .head .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card .description {
+    padding: 20px;
+    
+}
+
+.card .description h3, .card .description h4 {
+    color: black;
+}
+
+.card .description p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+
+
+
+.card .saber-mas a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 5px 20px;
+    border-radius: 5px;
+position: absolute;
+margin-top: 150px;
+
+}
+
+
+
+.card .saber-mas a:hover{
+    background: orange;
+
+}
+
+
+
+
+
+.imagen{
+    border-radius: 5px;
+}
